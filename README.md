@@ -3,7 +3,7 @@
 ## HomeWork 2
 
 
-1. На локальном репозитории сделать ветки для:
+**1. На локальном репозитории сделать ветки для:**
 - Postman
 - Jmeter
 - CheckLists
@@ -20,11 +20,11 @@ git branch SQL
 git branch Charles
 git branch Mobile_testing
 ```
-2. Запушить все ветки на внешний репозиторий:
+**2. Запушить все ветки на внешний репозиторий:**
 ```bash
 git push -u origin --all
 ```
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
+**3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта:**
 ```bash
 git checkout Bug_reports
 cat > br.txt
@@ -45,22 +45,22 @@ Attachments: None
 [Enter]
 [Ctrl + C]
 ```
-4. Запушить структуру багрепорта на внешний репозиторий:
+**4. Запушить структуру багрепорта на внешний репозиторий:**
 ```bash
 git add .
 git commit -m "br.txt"
 git push
 ```
-5. Вмержить ветку Bag Reports в Main:
+**5. Вмержить ветку Bag Reports в Main:**
 ```bash
 git checkout main
 git merge Bug-reports
 ```
-6. Запушить main на внешний репозиторий:
+**6. Запушить main на внешний репозиторий:**
 ```bash
 git push
 ```
-7. В ветке CheckLists набросать структуру чек листа:
+**7. В ветке CheckLists набросать структуру чек листа:**
 ```bash
 git checkout CheckLists
 cat > checklist_01.txt
@@ -80,17 +80,17 @@ Check List
 [Enter]
 [Ctrl + C]
 ```
-8. Запушить структуру на внешний репозиторий
+**8. Запушить структуру на внешний репозиторий**
 ```bash
 git add .
 git commit -m "checklist_01.txt"
 git push
 ```
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+**9. На внешнем репозитории сделать Pull Request ветки CheckLists в main**
 ```bash
 [Pull requests] > [Compare & pull request] > [Create pull request] > [Merge pull request]
 ```
-10. Синхронизировать Внешнюю и Локальную ветки Main
+**10. Синхронизировать Внешнюю и Локальную ветки Main**
 ```bash
 git checkout main
 git pull
